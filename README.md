@@ -183,10 +183,18 @@ The CassAAndra symbol has two A's, for Ana and Aline. Where they cross, they for
 
 ## Use of AI
 
-- **Images:** Cass, the CassAAndra symbol and the Space Valkyries logo are AI-generated. In this repository, every one of them carries an "AI-generated" label.
-- **Agent:** Cass uses Gemini to write answers. It is limited to measured data, and a final check compares every number with the tool results.
-- **Development:** we used AI coding assistants; the team reviewed and merged each change.
-- No NASA logo or branding appears in AI-generated content.
+We used AI tools to speed up the project, and we mark every use:
+
+| What                                                                     | How AI was used                                                                             | How it is marked                                                                                            |
+| ------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
+| **Cass images**                                                          | AI-generated                                                                                | Visible "AI-generated" label on every image                                                                 |
+| **CassAAndra symbol and Space Valkyries logo**                           | AI-generated                                                                                | "AI-generated" label in this README and under the big symbol in the app; listed in the app's **AI credits** |
+| **Illustrative radar images** (before/now, technical layers, alert card) | Synthetic images made by code written with AI assistance                                    | Visible "AI-generated" label in the app                                                                     |
+| **Sample data** in `/dados`                                              | Put together with AI assistance until the pipeline publishes real results                   | `"ai_generated": true` and `"sample": true` in each file's `metadata`; "Sample data" badge in the app       |
+| **Code and docs**                                                        | Developed with AI coding assistants (Claude); the team reviewed and approved each change    | This section, the repositories' READMEs, and a `Co-Authored-By` trailer on assisted commits                 |
+| **Cass's answers**                                                       | Gemini on Vertex AI writes the answers, limited to measured data, with every number checked | Described in the app and in [agent-cass](https://github.com/Montezi/agent-cass)                             |
+
+The app's header and the landing page footer link to an **AI credits** dialog with this list. No AI-generated content uses NASA logos, flags or mission identifiers.
 
 This is a team project for the NASA Space Apps Challenge. It is not affiliated with or endorsed by NASA.
 
