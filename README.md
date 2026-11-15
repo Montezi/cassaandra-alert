@@ -16,12 +16,24 @@
 </p>
 
 <p align="center">
-  <a href="https://cassaandra-alert.web.app"><strong>Open the app →</strong></a> ·
+  <a href="https://cassaandra-alert.web.app/app"><img src="https://img.shields.io/badge/%E2%96%B6%20Try%20the%20app-cassaandra--alert.web.app-FF6B35?style=for-the-badge&labelColor=0B3C5D" alt="Try the app: cassaandra-alert.web.app" height="40" /></a>
+</p>
+
+<p align="center">
+  No login, works on phones. <a href="https://cassaandra-alert.web.app">Landing page</a> ·
   <a href="https://cassaandra-alert.web.app/app">Map</a> ·
   <a href="https://cassaandra-alert.web.app/?lang=pt">Versão em português</a>
 </p>
 
-![CassAAndra Alert landing page: "Not a forecast. Precision." next to a globe with four monitored hotspots and Cass, the mascot](docs/images/landing.webp)
+<a href="https://cassaandra-alert.web.app"><img src="docs/images/landing.webp" alt="CassAAndra Alert landing page: &quot;Not a forecast. Precision.&quot; next to a globe with four monitored hotspots and Cass, the mascot. Click to open the app." /></a>
+
+### Try it in one minute
+
+1. Open the **[map](https://cassaandra-alert.web.app/app)**. Guaíba Lake (Brazil) opens in the panel on the right.
+2. Drag the **before/now curtain** over the radar image, then click **Open technical mode** to see the change in dB.
+3. Pick another hotspot in the list on the left, such as **Central Kalimantan, Borneo**.
+4. Open **Ask Cass** and click a suggested question.
+5. Click **Send alert on WhatsApp** to see the card civil defense teams would forward.
 
 > **Sample data.** The radar pipeline is still publishing its first real results. Until then, the numbers and images in the app are illustrative samples, and the app and Cass say so on screen.
 
